@@ -56,6 +56,11 @@ nav .btn {
 
 }
 
+nav .btn:hover {
+  box-shadow: 0 0 5px 3px rgb(177, 174, 174);
+  cursor: pointer;
+}
+
 main {
   background-image: url("assets/hero-bg.png");
   height: 674px;
@@ -76,7 +81,11 @@ main .c-1 {
   width: 229px;
   height: 35px;
   color: #469165;
+}
 
+.c-1:hover {
+  box-shadow: 0 0 5px 3px rgb(177, 174, 174);
+  cursor: pointer;
 }
 
 main .span-2 {
@@ -105,7 +114,11 @@ main .btn-1 {
   background-color: #469165;
   border-radius: 4px;
   border: none;
+}
 
+.btn-1:hover {
+  box-shadow: 0 0 5px 3px rgb(177, 174, 174);
+  cursor: pointer;
 }
 
 main .btn-2 {
@@ -118,6 +131,11 @@ main .btn-2 {
   border-radius: 4px;
   margin-left: 16px;
   border: 1px solid white;
+}
+
+.btn-2:hover {
+  box-shadow: 0 0 5px 3px rgb(177, 174, 174);
+  cursor: pointer;
 }
 
 .btn-parent {
@@ -138,14 +156,14 @@ main .btn-2 {
   font-weight: bold;
 }
 
-.notes p{
+.notes p {
   margin-top: 16px;
   font-size: 16px;
   font-weight: 400;
   color: #627382;
 }
 
-.subsec{
+.subsec {
   background-color: red;
   height: 48px;
   width: 48px;
@@ -155,13 +173,14 @@ main .btn-2 {
   align-items: center;
 }
 
-.subsec img{
+.subsec img {
   height: 32px;
   width: 32px;
   /* padding: 6px; */
 
 }
-.sec{
+
+.sec {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -174,18 +193,20 @@ main .btn-2 {
   box-shadow: 1px 1px 50px 15px rgb(241, 238, 238);
 
 }
-.sec h3{
+
+.sec h3 {
   color: black;
   font-size: 24px;
   font-weight: 600;
 }
 
-.sec p{
+.sec p {
   color: #627382;
   font-size: 18px;
   font-weight: 400;
 }
-.main-sec{
+
+.main-sec {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -193,7 +214,7 @@ main .btn-2 {
   margin-top: 44px;
 }
 
-.brain{
+.brain {
   display: flex;
   margin-top: 120px;
   width: 1360px;
@@ -201,7 +222,8 @@ main .btn-2 {
   margin-left: 120px;
 
 }
-.brain .bro{
+
+.brain .bro {
   /* margin-left: 60px; */
   display: flex;
   padding: 102px 0 102px 60px;
@@ -209,39 +231,40 @@ main .btn-2 {
   flex-direction: column;
   gap: 20px;
 
-  
+
 }
 
-.brain ul{
+.brain ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.brain p{
+.brain p {
   color: #627382;
   font-size: 16px;
   font-weight: 400px;
 
 }
 
-.brain h1{
+.brain h1 {
   font-size: 48px;
   font-weight: bold;
 }
 
-.brain h6{
+.brain h6 {
   color: #469165;
   font-size: 14px;
   font-weight: 300px;
 }
-.brain ul img{
+
+.brain ul img {
   height: 14px;
   width: 14px;
 }
 
-.bg{
+.bg {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -252,31 +275,33 @@ main .btn-2 {
   gap: 20px;
 }
 
-.marks{
+.marks {
   display: flex;
   justify-content: center;
   margin: 120px;
 }
-.bg p{
+
+.bg p {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   color: #627382;
 }
 
-.bg h2{
+.bg h2 {
   font-size: 40px;
   font-weight: bold;
-  
+
 
 }
-.bg h6{
+
+.bg h6 {
   font-size: 16px;
   font-weight: 300;
   color: #627382;
 }
 
-.bg button{
+.bg button {
   border: none;
   border-radius: 4px;
   background-color: #469165;
@@ -286,7 +311,12 @@ main .btn-2 {
 
 }
 
-.footer{
+.bg button:hover {
+  box-shadow: 0 0 5px 3px rgb(177, 174, 174);
+  cursor: pointer;
+}
+
+.footer {
   background-color: #001931;
   width: 1580;
   height: 348px;
@@ -297,15 +327,15 @@ main .btn-2 {
 
 }
 
-.foot{
+.foot {
   color: white;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
+
 }
 
-.foot i{
+.foot i {
   background-color: white;
   border-radius: 50%;
   color: black;
@@ -314,13 +344,13 @@ main .btn-2 {
   padding: 4px;
 }
 
-footer{
+footer {
   background-color: #001931;
   display: flex;
   justify-content: center;
 }
 
-footer div{
+footer div {
 
   width: 1100px;
   height: 65px;
@@ -333,7 +363,7 @@ footer div{
 
 }
 
-footer h6{
+footer h6 {
   font-size: 16px;
   font-weight: 400;
   color: #FAFAFA;
