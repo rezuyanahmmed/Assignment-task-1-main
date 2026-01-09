@@ -17,11 +17,20 @@ img {
 /* ---------- HEADER ---------- */
 header {
   max-width: 1600px;
-  margin: auto;
-  padding: 0 20px;
+  /* margin: auto; */
+  /* padding: 0 20px; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: center; */
   align-items: center;
+  gap: 346px;
+
+}
+
+header img {
+  /* padding-left: 120px; */
+
+  height: 60px;
+  width: 139px;
 }
 
 nav {
@@ -42,7 +51,7 @@ nav {
   font-weight: 500;
 }
 
-.lastLi{
+.lastLi {
   margin-right: 220px;
 }
 
@@ -83,20 +92,21 @@ main .c-1 {
   font-size: 16px;
   padding: 8px 16px;
   color: #469165;
+  border: none;
 }
 
-main .span-1,
+
 main .span-2 {
   font-size: clamp(32px, 5vw, 64px);
+  color: #30B868;
 }
 
 main .span-1 {
   color: white;
+  font-size: clamp(32px, 5vw, 64px);
 }
 
-main .span-2 {
-  color: #30B868;
-}
+
 
 main p {
   color: white;
@@ -111,7 +121,7 @@ main p {
   justify-content: center;
 }
 
-main .btn-1,
+
 main .btn-2 {
   height: 52px;
   width: 250px;
@@ -124,6 +134,8 @@ main .btn-1 {
   background-color: #469165;
   border: none;
   color: white;
+  width: 251px;
+  border-radius: 4px;
 }
 
 main .btn-2 {
@@ -162,7 +174,7 @@ main .btn-2 {
 .sec {
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .subsec {
@@ -177,11 +189,12 @@ main .btn-2 {
 }
 
 .sec h3 {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .sec p {
   color: #627382;
+  font-size: 16px;
 }
 
 /* ---------- BRAIN SECTION ---------- */
@@ -229,7 +242,7 @@ main .btn-2 {
   padding: 50px 40px;
 }
 
-.marks{
+.marks {
   width: 1260px;
   height: 384px;
   display: flex;
@@ -261,14 +274,15 @@ main .btn-2 {
 .footer {
   background-color: #001931;
   padding: 60px 20px;
+  display: flex;
+  gap: 600px;
 }
 
-.footer > div {
+.footer>div {
   max-width: 1200px;
   margin: auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between;/ align-items: center;
   color: white;
 }
 
@@ -295,25 +309,34 @@ footer div {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
-  border-top: 1px solid rgba(255,255,255,0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
   text-align: center;
 }
 
-/* ---------- MOBILE FIX ---------- */
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    gap: 16px;
-  }
+.marks h6 {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+}
 
-  .brain {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
+footer h6 {
+  font-size: 16px;
+  color: #FAFAFA;
+  font-weight: 200;
+}
 
-  .footer > div {
-    flex-direction: column;
-    gap: 20px;
-  }
+.btn:hover {
+  box-shadow: 0 0 5px 3px rgb(2, 2, 2);
+}
+
+.c-1:hover{
+   box-shadow: 0 0 5px 3px rgb(2, 2, 2);
+}
+
+main button:hover{
+   box-shadow: 0 0 5px 3px rgb(2, 2, 2);
+}
+.bg button:hover{
+   box-shadow: 0 0 5px 3px rgb(2, 2, 2);
 }
