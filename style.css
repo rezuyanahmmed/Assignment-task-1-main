@@ -16,7 +16,7 @@ img {
 
 /* ---------- HEADER ---------- */
 header {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: auto;
   padding: 0 20px;
   display: flex;
@@ -150,7 +150,7 @@ main .btn-2 {
 
 /* ---------- FEATURES ---------- */
 .main-sec {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: auto;
   padding: 40px 20px;
   display: grid;
@@ -166,7 +166,7 @@ main .btn-2 {
 }
 
 .subsec {
-  background-color: #469165;
+  background-color: #F95555;
   height: 48px;
   width: 48px;
   border-radius: 50%;
@@ -186,7 +186,7 @@ main .btn-2 {
 
 /* ---------- BRAIN SECTION ---------- */
 .brain {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 100px auto;
   padding: 0 20px;
   display: grid;
@@ -216,19 +216,26 @@ main .btn-2 {
   gap: 12px;
 }
 
-/* ---------- CTA ---------- */
-.marks {
-  background-color: #F7F6F2;
-  padding: 80px 20px;
-}
 
 .bg {
-  max-width: 1000px;
+  width: 960px;
+  height: 300px;
   margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: #F7F6F2;
+  padding: 50px 40px;
+}
+
+.marks{
+  width: 1260px;
+  height: 384px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .bg h2 {
